@@ -45,7 +45,7 @@ data "local_file" "ip_addr" {
 }
 
 output "ip_endpoint" {
-  value       = "Endpoint is ${data.local_file.ip_addr.content}:5000"
+  value       = "Endpoint is ${data.local_file.ip_addr.content}"
   description = "Endpoint for website"
 }
 
