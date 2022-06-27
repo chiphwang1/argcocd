@@ -7,7 +7,7 @@ provider "helm" {
 resource "helm_release" "argo_cd" {
   depends_on = [null_resource.create_ns]
   name       = "flask-demo"
-  repository = "https://charts.bitnami.com/bitnami"
+  repository = "https://argoproj.github.io/argo-helm "
   chart      = "argo/argo-cd"
   namespace = "argocd"
 

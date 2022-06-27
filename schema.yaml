@@ -1,6 +1,6 @@
 title: "Build a CI/CD pipelines by using OCI DevOps services."
-stackDescription: "Build a continuous integration and deployment pipeline by using Oracle Cloud Infrastructure DevOps services." 
-description: "Build a continuous integration and deployment pipeline by using Oracle Cloud Infrastructure DevOps services."
+stackDescription: "Install ArgoCd on an existing or new OKE cluster" 
+description: "Install ArgoCd on an existing or new OKE cluster"
 schemaVersion: 1.1.0
 version: "20190404"
 locale: "en"
