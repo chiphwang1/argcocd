@@ -23,7 +23,7 @@ variable "region" {
 
 
 variable "app_name" {
-  default = "test"
+  default = "ArgoCD"
 }
 
 
