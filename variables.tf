@@ -20,13 +20,6 @@ variable "region" {
   default = "us-ashburn-1"
 }
 
-
-
-variable "app_name" {
-  default = "test"
-}
-
-
 variable "release" {
   description = "Reference Architecture Release (OCI Architecture Center)"
   default     = "1.0.3"
