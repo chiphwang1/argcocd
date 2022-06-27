@@ -23,7 +23,7 @@ resource "null_resource" "create_ns" {
 
 resource "time_sleep" "wait_3min" {
   depends_on = [
-  helm_release.flask_demo
+  helm_release.argo_cd
   ]
   create_duration = "180s"
 }
