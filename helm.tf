@@ -4,10 +4,16 @@ provider "helm" {
   }
 }
 
-resource "helm_release" "flask_demo" {
+resource "helm_release" "argo_cd" {
   depends_on = [null_resource.create_ns]
   name       = "flask-demo"
-  chart      = "./generated/flask-demo/"
-  namespace = "demo3"
+  repository = "https://charts.bitnami.com/bitnami"
+  chart      = "argo/argo-cd"
+  namespace = "argocd"
+
+  set {
+    name  = "server.service.type"
+    value = "LoadBalancer"
+  }
 
   }
