@@ -1,8 +1,8 @@
-# OCI-OKE
+# OCI-OKE-ArgoCD
 
 ## Introduction
 
-
+This Terraform code will allow you deploy Argo CD to an existing OKE cluster or new OKE cluster.
 
 ## Terraform Provider for Oracle Cloud Infrastructure
 The OCI Terraform Provider is now available for automatic download through the Terraform Provider Registry. 
